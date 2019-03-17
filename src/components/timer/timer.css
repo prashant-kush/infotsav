@@ -1,0 +1,98 @@
+
+.timer
+{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 5%;
+  margin-bottom: 0;
+}
+span#procent {
+  display: block;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  font-size: 45px;
+  transform: translate(-50%, -50%);
+  color: white;
+  text-align: center;
+}
+
+/*span#procent::after {
+  content: 'seconds';
+}*/
+
+.canvas-wrap {
+  position: relative;
+  margin-right: 3%;
+  margin-left: 3%;
+  width: 250px;
+  height: 250px;
+}
+.canvas
+{
+    height: 250px;
+    width: 250px;
+}
+@media only screen and (max-width:1366px)
+{
+  span#procent
+  {
+    font-size: 35px;
+  }
+}
+@media only screen and (max-width:600px)
+{
+  span#procent {
+  display: block;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  font-size: 35px;
+  transform: translate(-50%, -50%);
+  color: white;
+  text-align: center;
+}
+  .canvas-wrap
+  {
+    position: relative;
+  
+  width: 200px;
+  height: 200px;
+  }
+  .canvas
+  {
+    height: 200px;
+    width: 200px;
+  }
+
+}
+@media only screen and (max-width:470px)
+{
+  span#procent {
+  display: block;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  font-size: 28px;
+  transform: translate(-50%, -50%);
+  color: white;
+  text-align: center;
+}
+  .canvas-wrap
+  {
+    position: relative;
+  margin-top: 0;
+  margin-right: 0;
+  margin-left: 0;
+  width: 150px;
+  height: 150px;
+  margin-bottom: 20px;
+  }
+  .canvas
+  {
+    height: 150px;
+    width: 150px;
+  }
+
+}

@@ -1,0 +1,187 @@
+.newsletter
+{
+		color: white;
+	  font-size: 30px;
+	  text-align: center;
+	  margin: 0;
+	  margin-top: 5%;
+}
+
+
+.input_field
+{
+	display: flex;
+	position: relative;
+	justify-content: center;
+	margin-top: 15px;
+}
+.input_field::after {
+ display: block;
+ width: 42%;
+   content: '';
+  height: 1px;
+  background: #4D4D4D;
+  position: absolute;
+  
+  bottom: -7px;
+  
+}
+.input_box
+{
+	background: transparent;
+	color: white;
+	height: 40px;
+	padding-left: 10px;
+	padding-right: 10px;
+	font-size: 20px;
+	
+	width:35%;
+	border-style: none;
+	outline: none;
+
+}
+.email_png
+{
+	height: 40px;
+	width: 40px;
+}
+
+ /*for tick svg*/
+
+
+.checkmark__circle1 {
+  stroke-dasharray: 166;
+  stroke-dashoffset: 166;
+  stroke-width: 2;
+  stroke-miterlimit: 10;
+  stroke: #DC0000;
+  fill: none;
+  animation: stroke .6s cubic-bezier(0.650, 0.000, 0.450, 1.000) forwards;
+}
+
+.checkmark__circle {
+  stroke-dasharray: 166;
+  stroke-dashoffset: 166;
+  stroke-width: 2;
+  stroke-miterlimit: 10;
+  stroke: #7ac142;
+  fill: none;
+  animation: stroke .6s cubic-bezier(0.650, 0.000, 0.450, 1.000) forwards;
+}
+
+.checkmark1 {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: block;
+  stroke-width: 2;
+  stroke: #fff;
+  stroke-miterlimit: 10;
+  /*margin: 10% auto;*/
+  cursor: pointer;
+
+  box-shadow: inset 0px 0px 0px #DC0000;
+  animation: fill1 .4s ease-in-out .4s forwards, scale .3s ease-in-out .9s both;
+}
+
+.checkmark {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: block;
+  stroke-width: 2;
+  stroke: #fff;
+  stroke-miterlimit: 10;
+  /*margin: 10% auto;*/
+  cursor: pointer;
+  box-shadow: inset 0px 0px 0px #158741;
+  
+  animation: fill2 .4s ease-in-out .4s forwards, scale .3s ease-in-out .9s both;
+}
+
+.checkmark__check {
+  transform-origin: 50% 50%;
+  stroke-dasharray: 48;
+  stroke-dashoffset: 48;
+  animation: stroke .3s cubic-bezier(0.650, 0.000, 0.450, 1.000) .8s forwards;
+}
+
+@keyframes stroke {
+  100% {
+    stroke-dashoffset: 0;
+  }
+}
+
+@keyframes scale {
+  0%, 100% {
+    transform: none;
+  }
+  50% {
+    transform: scale3d(1.1, 1.1, 1);
+  }
+}
+
+
+@keyframes fill1 {
+  100% {
+    box-shadow: inset 0px 0px 0px 30px #DC0000;
+  }
+}
+@keyframes fill2 {
+  100% {
+    box-shadow: inset 0px 0px 0px 30px #158741;
+  }
+}
+
+
+@media only screen and (max-width: 600px)
+{
+	.email_png
+	{
+		height: 30px;
+		width: 30px;
+	}
+	.checkmark1
+	{
+		height: 30px;
+		width: 30px;
+	}
+	.checkmark
+	{
+		height: 30px;
+		width: 30px;
+	}
+	.input_box
+	{
+		height: 30px;
+		font-size: 15px;
+	}
+}
+@media only screen and (max-width: 1300px)
+{
+	.input_field::after
+	{
+		width: 45%;
+	}
+}
+@media only screen and (max-width: 800px)
+{
+	.input_field::after
+	{
+		width: 50%;
+	}
+}
+@media only screen and (max-width: 480px)
+{
+	.input_field::after
+	{
+		width: 55%;
+	}
+}
+@media only screen and (max-width: 360px)
+{
+	.input_field::after
+	{
+		width: 60%;
+	}
+}
