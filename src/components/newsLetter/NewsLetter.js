@@ -21,7 +21,7 @@ class NewsLetter extends React.Component
 			
 		const svg=document.getElementById("svg");
 			const circle=document.getElementById("circle");
-			 var mailformat = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
+			 var mailformat = /^(([^<>()\[\]\.,;:\s@\"]+(\.[^<>()\[\]\.,;:\s@\"]+)*)|(\".+\"))@(([^<>()[\]\.,;:\s@\"]+\.)+[^<>()[\]\.,;:\s@\"]{2,})$/i;
 			 if(this.state.emailInput.match(mailformat))
 			 {
 			 	svg.classList.remove("checkmark1");
