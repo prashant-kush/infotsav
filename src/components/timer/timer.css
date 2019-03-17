@@ -18,9 +18,7 @@ span#procent {
   text-align: center;
 }
 
-/*span#procent::after {
-  content: 'seconds';
-}*/
+
 
 .canvas-wrap {
   position: relative;
