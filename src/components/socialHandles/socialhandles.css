@@ -16,7 +16,9 @@ article {
   margin-top: 2%;
   text-align: center;
   zoom: 2;
-  bottom: 0;
+  position: absolute;
+  bottom: 0%;
+  padding: 0px;
   left: 50%;
   right: 50%;
 }

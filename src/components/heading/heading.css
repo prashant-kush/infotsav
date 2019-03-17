@@ -274,3 +274,10 @@
     font-size: 1.5em;
   }
 }
+@media only screen and (max-width: 325px)
+{
+  .glitch
+  {
+    font-size: 1em;
+  }
+}

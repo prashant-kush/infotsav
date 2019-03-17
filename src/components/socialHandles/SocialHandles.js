@@ -4,7 +4,7 @@ const SocialHandles=()=>
 {
 	return(
 			<article>
-				<a href="https://facebook.com/username" target="_blank">
+				<a href="https://www.facebook.com/Infotsav/" target="_blank">
 				  <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 					 width="25px" height="25px" viewBox="0 0 30 30" enable-background="new 0 0 30 30" xmlSpace="preserve">
 				   <path id="facebook" fill="#ffffff" d="M17.252,11.106V8.65c0-0.922,0.611-1.138,1.041-1.138h2.643V3.459l-3.639-0.015
@@ -12,7 +12,7 @@ const SocialHandles=()=>
 				  </svg>
 				</a>
 
-				<a href="https://instagram.com/username" target="_blank">
+				<a href="https://www.instagram.com/infotsav19/" target="_blank">
 				  <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 					 width="25px" height="25px" viewBox="0 0 30 30" enable-background="new 0 0 30 30" xmlSpace="preserve">
 				   <path id="instagram" fill="#ffffff" d="M22.107,3.415H7.893c-2.469,0-4.479,2.007-4.479,4.477v4.73v9.486c0,2.469,2.01,4.479,4.479,4.479h14.215
