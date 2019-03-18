@@ -52,7 +52,7 @@ class NewsLetter extends React.Component
 
 		return(
 				<div>
-					<div>
+					<div className="message">
 						<p className="newsletter">We'll be here soon with a newer version of INFOTSAV, subscribe to be notified.</p>
 					</div>
 					<div className="input_field">

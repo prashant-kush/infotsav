@@ -42,21 +42,12 @@ span#procent {
 @media only screen and (max-width:600px)
 {
   span#procent {
-  display: block;
-  position: absolute;
-  left: 50%;
-  top: 50%;
   font-size: 35px;
-  transform: translate(-50%, -50%);
-  color: white;
-  text-align: center;
 }
   .canvas-wrap
   {
-    position: relative;
-  
-  width: 200px;
-  height: 200px;
+    width: 200px;
+    height: 200px;
   }
   .canvas
   {
@@ -68,14 +59,7 @@ span#procent {
 @media only screen and (max-width:470px)
 {
   span#procent {
-  display: block;
-  position: absolute;
-  left: 50%;
-  top: 50%;
   font-size: 28px;
-  transform: translate(-50%, -50%);
-  color: white;
-  text-align: center;
 }
   .canvas-wrap
   {
@@ -85,7 +69,6 @@ span#procent {
   margin-left: 0;
   width: 150px;
   height: 150px;
-  margin-bottom: 20px;
   }
   .canvas
   {

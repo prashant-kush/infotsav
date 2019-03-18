@@ -1,9 +1,18 @@
+@import url('https://fonts.googleapis.com/css?family=Muli');
+
+
 .newsletter
 {
 		color: white;
 	  font-size: 30px;
 	  text-align: center;
 	  margin-top: 15px;
+}
+.message p
+{
+	font-family:'Muli', sans-serif;
+	margin: 0px;
+	margin-top: 15px;
 }
 
 
@@ -176,11 +185,19 @@
 	{
 		width: 55%;
 	}
+	.input_box
+	{
+		font-size: 13px;
+	}
 }
 @media only screen and (max-width: 360px)
 {
 	.input_field::after
 	{
 		width: 60%;
+	}
+	.input_box
+	{
+		font-size: 12px;
 	}
 }

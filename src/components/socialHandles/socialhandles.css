@@ -17,15 +17,14 @@ article {
   text-align: center;
   zoom: 2;
   position: absolute;
-  bottom: 0%;
-  padding: 0px;
+
   left: 50%;
   right: 50%;
 }
 a { 
   outline: none; 
   border: 0; 
-  text-decoration: none; 
+  text-decoration: none;
 }
 a svg #facebook,
 a svg #instagram { 
