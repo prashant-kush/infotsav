@@ -1,6 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Muli');
 
-
+.news
+{
+	margin-bottom: 70px;
+}
 .newsletter
 {
 		color: white;
@@ -13,6 +16,7 @@
 	font-family:'Muli', sans-serif;
 	margin: 0px;
 	margin-top: 15px;
+	font-size: 20px;
 }
 
 
@@ -30,7 +34,6 @@
   height: 1px;
   background: #4D4D4D;
   position: absolute;
-  
   bottom: -7px;
   
 }
@@ -38,10 +41,10 @@
 {
 	background: transparent;
 	color: white;
-	height: 40px;
+	height: 35px;
 	padding-left: 10px;
 	padding-right: 10px;
-	font-size: 20px;
+	font-size: 15px;
 	
 	width:35%;
 	border-style: none;
@@ -50,8 +53,8 @@
 }
 .email_png
 {
-	height: 40px;
-	width: 40px;
+	height: 35px;
+	width: 35px;
 }
 
  /*for tick svg*/
@@ -78,8 +81,8 @@
 }
 
 .checkmark1 {
-  width: 40px;
-  height: 40px;
+  width: 35px;
+  height: 35px;
   border-radius: 50%;
   display: block;
   stroke-width: 2;
@@ -93,8 +96,8 @@
 }
 
 .checkmark {
-  width: 40px;
-  height: 40px;
+  width: 35px;
+  height: 35px;
   border-radius: 50%;
   display: block;
   stroke-width: 2;
@@ -162,7 +165,7 @@
 	.input_box
 	{
 		height: 30px;
-		font-size: 15px;
+		font-size: 14px;
 	}
 }
 @media only screen and (max-width: 1300px)
@@ -186,6 +189,10 @@
 		width: 55%;
 	}
 	.input_box
+	{
+		font-size: 13px;
+	}
+	.message p
 	{
 		font-size: 13px;
 	}

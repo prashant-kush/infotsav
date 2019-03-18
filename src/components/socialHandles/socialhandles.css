@@ -17,7 +17,7 @@ article {
   text-align: center;
   zoom: 2;
   position: absolute;
-
+  bottom: 0;
   left: 50%;
   right: 50%;
 }
@@ -33,11 +33,11 @@ a svg #instagram {
   -webkit-transition: 200ms;
   -webkit-transition-timing-function: ease-in-out;
 }
-@media only screen and (max-width: 900px)
+@media only screen and (max-width: 600px)
 {
   svg
   {
-    width: 20px;
-    height: 20px;
+    width: 15px;
+    height: 15px;
   }
 }
