@@ -14,7 +14,7 @@ class NewsLetter extends React.Component
 	}
 	onSubmit=()=>
 	{
-		return fetch("http://192.168.0.103:3001/email",{
+		return fetch("https://salty-fjord-26855.herokuapp.com/email",{
 			method:"post",
 			headers:{"Content-Type":"application/json"},
 			body:JSON.stringify({email:this.state.emailInput})
