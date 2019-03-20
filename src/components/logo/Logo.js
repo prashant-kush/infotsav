@@ -1,16 +1,12 @@
 import React from "react";
-import logo from "../../header.png";
+import logo from "../../infotsav.svg";
+import "./logo.css";
 
 const Logo=()=>
 {
-	const style=
-				{
-					width:"100px",
-					height:"100px",
-				}
-	return(
+		return(
 		<div>
-			<img src={logo} alt="logo" style={style} />
+			<img src={logo} alt="logo" id="logo"/>
 		</div>
 		);
 }
