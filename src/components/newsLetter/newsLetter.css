@@ -2,6 +2,7 @@
 
 .news
 {
+	margin-top: 1.8%;
 	margin-bottom: 70px;
 }
 .newsletter
@@ -9,13 +10,11 @@
 		color: white;
 	  font-size: 30px;
 	  text-align: center;
-	  margin-top: 15px;
 }
 .message p
 {
 	font-family:'Muli', sans-serif;
 	margin: 0px;
-	margin-top: 15px;
 	font-size: 20px;
 }
 
