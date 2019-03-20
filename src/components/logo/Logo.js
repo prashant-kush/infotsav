@@ -19,7 +19,7 @@ const Logo=()=>
 				</filter>
 
 
-				<title>Asset 7
+				<title>Infotsav
 				</title>
 				<g id="Layer_2" data-name="Layer 2" className="path">
 					<g id="Layer_1-2" data-name="Layer 1" className="path">
