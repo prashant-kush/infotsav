@@ -12,6 +12,20 @@ class NewsLetter extends React.Component
 						run:0
 					}
 	}
+	onSubmit=()=>
+	{
+		return fetch("http://192.168.0.103:3001/email",{
+			method:"post",
+			headers:{"Content-Type":"application/json"},
+			body:JSON.stringify({email:this.state.emailInput})
+		}).then((response)=>{
+			const res=response.json();
+			return res;
+		}).then(data=>
+		{
+			alert(data);
+		}).catch(err=>alert(err));
+	}
 
 
 		render()
@@ -33,6 +47,7 @@ class NewsLetter extends React.Component
 
 			 	var elm = svg;
 				var newone = elm.cloneNode(true);
+				newone.onclick=this.onSubmit;
 				elm.parentNode.replaceChild(newone, elm);
 			 }
 			 else
@@ -46,6 +61,7 @@ class NewsLetter extends React.Component
 						        
 			      var elm = svg;
 					var newone = elm.cloneNode(true);
+					newone.onclick=this.onSubmit;
 					elm.parentNode.replaceChild(newone, elm);
 				  }
 				}
@@ -61,7 +77,7 @@ class NewsLetter extends React.Component
 							this.setState({emailInput:document.getElementById("input").value,run:1});
 						}} />
 						<svg class="checkmark1" id="svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 52 52"
-							><circle class="checkmark__circle1" id="circle" cx="26" cy="26" r="25" fill="none"
+							onClick={this.onSubmit}><circle class="checkmark__circle1" id="circle" cx="26" cy="26" r="25" fill="none"
 							/><path class="checkmark__check" fill="none" d="M14.1 27.2l7.1 7.2 16.7-16.8"/>
 						</svg>
 					</div>

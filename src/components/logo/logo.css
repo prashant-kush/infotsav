@@ -1,9 +1,63 @@
+#logo
+{
+	width: 640px;
+	height:	148px;
+	transition: all 0.5s;
+	/*animation: neon 1.5s ease-in-out infinite alternate;*/
+	animation:tronFilter 12s infinite; 
+    fill:#000000; stroke:#666; stroke-width:5; stroke-linecap:round; stroke-linejoin:bevel;
+	
+
+	
+}
+
+@keyframes tronFilter {
+    0% {-webkit-filter: drop-shadow( -.75px 0px 6px #31eefd );
+                filter: drop-shadow( -.75px 0px 6px #31eefd ); stroke:#31eefd;} 
+   22% {-webkit-filter: drop-shadow( -.75px 0px 6px #1d85bb );
+                filter: drop-shadow( -.75px 0px 6px #1d85bb ); stroke:#1d85bb;} /* end blue */  
+    
+   42% {-webkit-filter: drop-shadow( -.75px 0px 6px #884173 );
+                filter: drop-shadow( -.75px 0px 6px #884173 ); stroke:#884173;}
+   62% {-webkit-filter: drop-shadow( -.75px 0px 6px #ff0071 );
+                filter: drop-shadow( -.75px 0px 6px #ff0071 ); stroke:#ff0071;} /* end magenta */  
+   82% {-webkit-filter: drop-shadow( -.75px 0px 6px #009997 );
+                filter: drop-shadow( -.75px 0px 6px #009997 ); stroke:#009997;}
+   92% {-webkit-filter: drop-shadow( -.75px 0px 6px #92ffd7 );
+                filter: drop-shadow( -.75px 0px 6px #92ffd7 ); stroke:#92ffd7;} /* end green */      
+  100% {-webkit-filter: drop-shadow( -.75px 0px 6px #31eefd );
+                filter: drop-shadow( -.75px 0px 6px #31eefd ); stroke:#31eefd;} 
+}
+
+/*@-webkit-keyframes neon {
+  from {
+    filter:drop-shadow(5px 5px 20px #fff);
+    filter:drop-shadow(5px 5px 30px #fff);
+    filter:drop-shadow(5px 5px 40px #fff);
+    filter:drop-shadow(5px 5px 60px #228DFF);
+    filter:drop-shadow(5px 5px 80px #228DFF);
+    filter:drop-shadow(5px 5px 90px #228DFF);
+    filter:drop-shadow(5px 5px 110px #228DFF);
+    filter:drop-shadow(5px 5px 160px #228DFF);
+  }
+  to {
+    filter:drop-shadow(5px 5px 2px #fff);
+    filter:drop-shadow(5px 5px 4px #fff);
+    filter:drop-shadow(5px 5px 3px #fff);
+    filter:drop-shadow(5px 5px 4px #228DFF);
+    filter:drop-shadow(5px 5px 14px #228DFF);
+    filter:drop-shadow(5px 5px 16px #228DFF);
+    filter:drop-shadow(5px 5px 20px #228DFF);
+    filter:drop-shadow(5px 5px 30px #228DFF);
+  }
+}*/
+
 @media only screen and (max-width: 1920px)
 {
 	#logo
 	{
 		width: 640px;
-		height: 148;
+		height: 148px;
 	}
 }
 
