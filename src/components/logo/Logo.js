@@ -1,16 +1,17 @@
 import React from "react";
-import logo from "../../header.png";
+import logo from "../../infotsav-thor.png";
+import "./Logo.css";
 
 const Logo=()=>
 {
 	const style=
 				{
-					width:"100px",
-					height:"100px",
+					width:"1200px",
+					height:"200px",
 				}
 	return(
-		<div>
-			<img src={logo} alt="logo" style={style} />
+		<div className="logo">
+			<img src={logo} alt="logo" style={style}/>
 		</div>
 		);
 }
