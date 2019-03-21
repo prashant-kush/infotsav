@@ -1,7 +1,8 @@
 import React from "react";
 import email from "../../email2.png";
 import "./newsLetter.css";
-import Loader from "./../../components/loader/Loader.js"
+import Loader from "./../../components/loader/Loader.js";
+import swal from 'sweetalert';
 class NewsLetter extends React.Component
 {
 	constructor()
@@ -25,12 +26,19 @@ class NewsLetter extends React.Component
 			const res=response.json();
 			return res;
 		}).then(data=>
-		{
+		{	console.log(data);
 			this.setState({loading:"hidden"});
-			alert(data);
+			if(data==="success")
+			swal("Good job!", "Thanks for subscribing with INFOTSAV! We will get in touch with you soon", "success");
+			else if(data==="failed")
+				swal("Error!", "There is some error. Please try again later", "error");
+			else if(data==="exists")
+				swal("We Got You!", "Entered email ID already exists with us!", "info");
+			else if(data==="invalid")
+				swal("Invalid ID", "Please enter a valid Email ID", "error");
 		}).catch(err=>{
 			this.setState({loading:"hidden"});
-			alert(err);});
+			swal("Error!", "There is some error. Please try again later", "error");});
 	}
 
 
