@@ -5,6 +5,7 @@ import NewsLetter from "./components/newsLetter/NewsLetter.js";
 import SocialHandles from "./components/socialHandles/SocialHandles.js";
 import Background from "./components/background/Background.js";
 import Heading from "./components/heading/Heading.js";
+import Loader from "./components/loader/Loader.js";
 
 import './App.css';
 
@@ -14,6 +15,7 @@ class App extends Component {
     return (
       <div className="App">
         <Background />
+        <Loader />
         <Logo />
         <Heading />
         <Timer />
