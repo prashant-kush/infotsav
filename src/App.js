@@ -10,12 +10,27 @@ import Loader from "./components/loader/Loader.js";
 import './App.css';
 
 class App extends Component {
-
+constructor()
+{
+  super();
+  this.state=
+              {
+                loading:"hidden"
+              }
+}
+// componentWillMount()
+// {
+//   this.setState({loading:"visible"});
+// }
+// componentDidMount()
+// {
+//   this.setState({loading:"hidden"});
+// }
   render() {
     return (
       <div className="App">
         <Background />
-        <Loader />
+        <Loader visibility={this.state.loading}/>
         <Logo />
         <Heading />
         <Timer />

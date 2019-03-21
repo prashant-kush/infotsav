@@ -42,6 +42,7 @@ class NewsLetter extends React.Component
 	}
 
 
+
 		render()
 		{
 			if(this.state.run==!0)
@@ -91,6 +92,7 @@ class NewsLetter extends React.Component
 						<img src={email} alt="email_svg" className="email_png"/>
 						<input type="text" placeholder="Enter your email here" className="input_box" id="input" onChange={()=>{
 							this.setState({emailInput:document.getElementById("input").value,run:1});
+							document.getElementById("input").value=document.getElementById("input").value.toLowerCase();
 						}} />
 						<svg className="checkmark1" id="svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 52 52"
 							onClick={this.onSubmit}><circle className="checkmark__circle1" id="circle" cx="26" cy="26" r="25" fill="none"
