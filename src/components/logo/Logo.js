@@ -1,5 +1,4 @@
 import React from "react";
-import logo from "../../infotsav.svg";
 import "./logo.css";
 
 const Logo=()=>

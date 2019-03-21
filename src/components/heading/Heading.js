@@ -4,7 +4,7 @@ const Heading=()=>
 {
 	return(
 			<div id="wrapper">
-					<h1 class="glitch" data-text="
+					<h1 className="glitch" data-text="
 					Coming Soon">Coming Soon</h1>
 					
 				

@@ -15,7 +15,7 @@ class SocialHandles extends React.Component
 				<article>
 					<a href="https://www.facebook.com/Infotsav/" target="_blank">
 					  <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-						 width="17px" height="17px" viewBox="0 0 30 30" enable-background="new 0 0 30 30" xmlSpace="preserve">
+						 width="17px" height="17px" viewBox="0 0 30 30" enableBackground="new 0 0 30 30" xmlSpace="preserve">
 					   <path id="facebook" fill="#ffffff" d="M17.252,11.106V8.65c0-0.922,0.611-1.138,1.041-1.138h2.643V3.459l-3.639-0.015
 						c-4.041,0-4.961,3.023-4.961,4.961v2.701H10v4.178h2.336v11.823h4.916V15.284h3.316l0.428-4.178H17.252z"/>
 					  </svg>
@@ -23,7 +23,7 @@ class SocialHandles extends React.Component
 
 					<a href="https://www.instagram.com/infotsav19/" target="_blank">
 					  <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-						 width="17px" height="17px" viewBox="0 0 30 30" enable-background="new 0 0 30 30" xmlSpace="preserve">
+						 width="17px" height="17px" viewBox="0 0 30 30" enableBackground="new 0 0 30 30" xmlSpace="preserve">
 					   <path id="instagram" fill="#ffffff" d="M22.107,3.415H7.893c-2.469,0-4.479,2.007-4.479,4.477v4.73v9.486c0,2.469,2.01,4.479,4.479,4.479h14.215
 						c2.469,0,4.479-2.01,4.479-4.479v-9.486v-4.73C26.586,5.421,24.576,3.415,22.107,3.415 M23.393,6.086l0.512-0.004v0.511v3.416
 						l-3.916,0.014l-0.012-3.928L23.393,6.086z M11.693,12.622c0.742-1.028,1.945-1.7,3.307-1.7s2.564,0.672,3.307,1.7
