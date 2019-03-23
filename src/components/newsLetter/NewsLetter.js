@@ -26,7 +26,7 @@ class NewsLetter extends React.Component
 			const res=response.json();
 			return res;
 		}).then(data=>
-		{	console.log(data);
+		{
 			this.setState({loading:"hidden"});
 			if(data==="success")
 			swal("Good job!", "Thanks for subscribing with INFOTSAV! We will get in touch with you soon", "success");
