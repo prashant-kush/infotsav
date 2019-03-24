@@ -17,28 +17,34 @@ class NewsLetter extends React.Component
 	}
 	onSubmit=()=>
 	{
-		this.setState({loading:"visible"});
-		return fetch("https://salty-fjord-26855.herokuapp.com/email",{
-			method:"post",
-			headers:{"Content-Type":"application/json"},
-			body:JSON.stringify({email:this.state.emailInput})
-		}).then((response)=>{
-			const res=response.json();
-			return res;
-		}).then(data=>
+		var mailformat = /^(([^<>()\[\]\.,;:\s@\"]+(\.[^<>()\[\]\.,;:\s@\"]+)*)|(\".+\"))@(([^<>()[\]\.,;:\s@\"]+\.)+[^<>()[\]\.,;:\s@\"]{2,})$/i;
+	 	if(this.state.emailInput.match(mailformat))
 		{
-			this.setState({loading:"hidden"});
-			if(data==="success")
-			swal("Good job!", "Thanks for subscribing with INFOTSAV! We will get in touch with you soon", "success");
-			else if(data==="failed")
-				swal("Error!", "There is some error. Please try again later", "error");
-			else if(data==="exists")
-				swal("We Got You!", "Entered email ID already exists with us!", "info");
-			else if(data==="invalid")
-				swal("Invalid ID", "Please enter a valid Email ID", "error");
-		}).catch(err=>{
-			this.setState({loading:"hidden"});
-			swal("Error!", "There is some error. Please try again later", "error");});
+				this.setState({loading:"visible"});
+				return fetch("https://salty-fjord-26855.herokuapp.com/email",{
+					method:"post",
+					headers:{"Content-Type":"application/json"},
+					body:JSON.stringify({email:this.state.emailInput})
+				}).then((response)=>{
+					const res=response.json();
+					return res;
+				}).then(data=>
+				{
+					this.setState({loading:"hidden"});
+					if(data==="success")
+					swal("Good job!", "Thanks for subscribing with INFOTSAV! We will get in touch with you soon", "success");
+					else if(data==="failed")
+						swal("Error!", "There is some error. Please try again later", "error");
+					else if(data==="exists")
+						swal("We Got You!", "Entered email ID already exists with us!", "info");
+					else if(data==="invalid")
+						swal("Invalid ID", "Please enter a valid Email ID", "error");
+				}).catch(err=>{
+					this.setState({loading:"hidden"});
+					swal("Error!", "There is some error. Please try again later", "error");});
+		}
+		else
+			swal("Invalid ID", "Please enter a valid Email ID", "error");
 	}
 
 
