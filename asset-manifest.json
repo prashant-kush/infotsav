@@ -1,13 +1,13 @@
 {
-  "main.css": "infotsav.in/static/css/main.02c1cd25.chunk.css",
-  "main.js": "infotsav.in/static/js/main.6bf3a015.chunk.js",
-  "main.js.map": "infotsav.in/static/js/main.6bf3a015.chunk.js.map",
-  "runtime~main.js": "infotsav.in/static/js/runtime~main.ba4e9cde.js",
-  "runtime~main.js.map": "infotsav.in/static/js/runtime~main.ba4e9cde.js.map",
-  "static/js/2.ebdfba6f.chunk.js": "infotsav.in/static/js/2.ebdfba6f.chunk.js",
-  "static/js/2.ebdfba6f.chunk.js.map": "infotsav.in/static/js/2.ebdfba6f.chunk.js.map",
-  "index.html": "infotsav.in/index.html",
-  "precache-manifest.e00c514fa5084056a28f3fdfc6603b49.js": "infotsav.in/precache-manifest.e00c514fa5084056a28f3fdfc6603b49.js",
-  "service-worker.js": "infotsav.in/service-worker.js",
-  "static/css/main.02c1cd25.chunk.css.map": "infotsav.in/static/css/main.02c1cd25.chunk.css.map"
+  "main.css": "/infotsav/static/css/main.02c1cd25.chunk.css",
+  "main.js": "/infotsav/static/js/main.4721ee4d.chunk.js",
+  "main.js.map": "/infotsav/static/js/main.4721ee4d.chunk.js.map",
+  "runtime~main.js": "/infotsav/static/js/runtime~main.96f5dff8.js",
+  "runtime~main.js.map": "/infotsav/static/js/runtime~main.96f5dff8.js.map",
+  "static/js/2.ebdfba6f.chunk.js": "/infotsav/static/js/2.ebdfba6f.chunk.js",
+  "static/js/2.ebdfba6f.chunk.js.map": "/infotsav/static/js/2.ebdfba6f.chunk.js.map",
+  "index.html": "/infotsav/index.html",
+  "precache-manifest.840c1d6b100ea0a3bc307c73f0f09ec2.js": "/infotsav/precache-manifest.840c1d6b100ea0a3bc307c73f0f09ec2.js",
+  "service-worker.js": "/infotsav/service-worker.js",
+  "static/css/main.02c1cd25.chunk.css.map": "/infotsav/static/css/main.02c1cd25.chunk.css.map"
 }
