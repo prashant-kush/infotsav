@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/infotsav-landing-page-2019/precache-manifest.6f2a9ff90fc6197e1de0f95ba7ff335c.js"
+  "infotsav.in/precache-manifest.e00c514fa5084056a28f3fdfc6603b49.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/infotsav-landing-page-2019/index.html", {
+workbox.routing.registerNavigationRoute("infotsav.in/index.html", {
   
   blacklist: [/^\/_/,/\/[^\/]+\.[^\/]+$/],
 });
