@@ -96,24 +96,24 @@ class Timer extends React.Component
 		return(
 			<div className="timer" >
 				
-					<div class="canvas-wrap">
+					<div className="canvas-wrap">
 					  <canvas id="canvas_days" className="canvas" width="250" height="250" ></canvas>
 					  <span id="procent">{this.state.days}<br/>Days</span>
 					</div>
 				
-					<div class="canvas-wrap">
+					<div className="canvas-wrap">
 					  <canvas id="canvas_hours" className="canvas" width="250" height="250" ></canvas>
 					  <span id="procent">{this.state.hours}<br/>Hours</span>
 					</div>
 				
 			
-					<div class="canvas-wrap">
+					<div className="canvas-wrap">
 					  <canvas id="canvas_minutes" className="canvas" width="250" height="250"  ></canvas>
 					  <span id="procent">{this.state.minutes}<br/>Min</span>
 					</div>
 				
 				
-					<div class="canvas-wrap">
+					<div className="canvas-wrap">
 					  <canvas id="canvas_seconds" className="canvas" width="250" height="250" ></canvas>
 					  <span id="procent">{this.state.seconds}<br/>Sec</span>
 					</div>

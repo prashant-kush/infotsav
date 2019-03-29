@@ -1,14 +1,23 @@
 /* HOVER COLOR */
-
 a svg:hover #facebook
 {
-  fill: #3B579D;
+  fill: #ffffff;
 }
 a svg:hover #instagram { 
-  fill: #F7293E;
+  fill: #ffffff;
 }
-
-
+a svg:hover #linkedin
+{
+  fill:#ffffff;
+}
+a svg:hover #twitter
+{
+  fill:#ffffff;
+}
+a svg:hover #google
+{
+  fill:#ffffff;
+}
 article {  
   margin: 0px;
   display:flex;
@@ -27,7 +36,10 @@ a {
   text-decoration: none;
 }
 a svg #facebook,
-a svg #instagram { 
+a svg #instagram,
+a svg #linkedin,
+a svg #twitter,
+a svg #google { 
   transition: 200ms;
   transition-timing-function: ease-in-out;
   -webkit-transition: 200ms;
@@ -38,6 +50,6 @@ a svg #instagram {
   svg
   {
     width: 15px;
-    height: 15px;
+    height: 20px;
   }
 }

@@ -1,15 +1,16 @@
 
-@import url('https://fonts.googleapis.com/css?family=Courgette');
+@import url('https://fonts.googleapis.com/css?family=ZCOOL+XiaoWei');
+
  h1 {
 	 padding: 0;
 	 margin: 0;
-	 font-family: 'Courgette', cursive;
+	font-family: 'ZCOOL XiaoWei', serif;
 }
  #wrapper {
 	 text-align: center;
 	 display: flex;
 	 justify-content: center;
-	 margin-top: 15px;
+	 margin-top: 1%;
 }
  .sub {
 	 color: #64dcdc;
@@ -22,7 +23,7 @@
 	 letter-spacing: 0.5em;
 	 width: 98%;
 	 margin: 0;
-	 animation: glitch-skew 1s infinite linear alternate-reverse;
+	 animation: glitch-skew 3s infinite linear alternate-reverse;
 }
  .glitch::before {
 	 content: attr(data-text);
@@ -34,7 +35,7 @@
 	 left: 2px;
 	 text-shadow: -2px 0 #ff00c1;
 	 clip: rect(44px, 450px, 56px, 0);
-	 animation: glitch-anim 5s infinite linear alternate-reverse;
+	 animation: glitch-anim 10s infinite linear alternate-reverse;
 }
  .glitch::after {
 	 content: attr(data-text);
@@ -45,7 +46,7 @@
 	 height: 100%;
 	 left: -2px;
 	 text-shadow: -2px 0 #00fff9, 2px 2px #ff00c1;
-	 animation: glitch-anim2 1s infinite linear alternate-reverse;
+	 animation: glitch-anim2 3s infinite linear alternate-reverse;
 }
  @keyframes glitch-anim {
 	 0% {
@@ -254,11 +255,19 @@
 		 transform: skew(2deg);
 	}
 }
+@media only screen and (max-width: 1000px)
+{
+	.glitch
+	{
+		font-size: 2.8em;
+	}
+}
  @media only screen and (max-width: 860px)
+
 {
   .glitch
   {
-    font-size: 3em;
+    font-size: 2.4em;
   }
 }
  @media only screen and (max-width: 570px)
