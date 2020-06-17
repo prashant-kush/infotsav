@@ -49,7 +49,7 @@ class Timer extends React.Component
 	{
 		//for timer
 
-		const targetTime= new Date("Feb 7, 2020 00:00:00").getTime();
+		const targetTime= new Date("Feb 7, 2021 00:00:00").getTime();
 
 		//for circular empty progress bar
 
